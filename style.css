@@ -10,7 +10,8 @@
 }
 
 ul {
-   margin-top: 20%;
+   margin-top: 15%;
+   list-style: none;
 }
 .logo{
     width: 80px;
@@ -20,4 +21,8 @@ ul {
 header{
    display: flex;
    justify-content: space-between;
+}
+
+ ul a{
+   text-decoration: none;
 }
