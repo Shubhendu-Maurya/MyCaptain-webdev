@@ -1,4 +1,23 @@
-img{
-    max-width:10%;
-    height:top;
+*{
+   margin: 0;
+   padding: 0;
+   font-family: 'Montserrat' , sans-serif; 
+
+}
+
+.container{
+   text-align: center;
+}
+
+ul {
+   margin-top: 20%;
+}
+.logo{
+    width: 80px;
+    margin-left: 5%;
+
+}
+header{
+   display: flex;
+   justify-content: space-between;
 }
