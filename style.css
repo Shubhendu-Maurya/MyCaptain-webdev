@@ -9,7 +9,7 @@ h1{
 }
 .container{
    text-align: center;
-   background: powderblue;
+   background: ;
 }
 
 figcaption , p {
@@ -60,4 +60,72 @@ header{
    border: 1px solid gray;
    padding-left: 17px;
    
+}
+
+ul#menu li{
+   font-size: 3.5em;
+}
+
+.delimg img{
+  width : 400px;
+  
+  
+}
+
+.subhead{
+   padding-bottom: 10%;
+}
+
+.nav1{
+   background: rgb(134, 213, 233);
+   width: 100%;
+   border-top-left-radius: 40px;
+   transform: skew(-2deg);
+   }
+
+.nav1:before{
+   content:"";
+   width: 200px;
+   height:200px;
+   background-color: red;
+   position: absolute;
+   right: 0;
+   }
+   .nav1:before{
+      content:"";
+      width: 200px;
+      height:200px;
+      background-color: green;
+      position: absolute;
+      right: 0;
+      top: -12px;
+      }
+.container3{
+   font-size:50;
+   
+   
+   
+}
+.container4{
+   padding-left:1.5em;
+   padding-right: 1.5em;
+}
+
+.cta{
+   background-color: #00CC80;
+   width: calc(100%-1em);
+   display: block;
+   color: white;
+   border-radius: 20px;
+   padding: .5em;
+   text-decoration: none;
+   font-size: 1.5em;
+   margin: 3% 5% 7%;
+   position: relative;
+   z-index: 4;
+}
+
+.feedback{
+
+
 }

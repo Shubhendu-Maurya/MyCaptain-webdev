@@ -1,0 +1,92 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: 'Montserrat' , sans-serif;
+    
+}
+.container{
+    text-align: center;
+}
+
+figcaption{
+    font-size:0.9em;
+    line-height: 1.6em;
+}
+ul{
+list-style-type:none;
+
+}
+
+.logo{
+    width: 50px;
+    padding: 1.5em;
+    height: 50px;
+}
+.server{
+    width: 300px;
+    height: 320px;
+    
+}
+header{
+   display: flex;
+   justify-content: space-between;
+ }
+
+ .hide-mobile{
+     display:none;
+ }
+ nav{
+     padding: 1.5em;
+ }
+
+ h1{
+     padding-bottom: 1.5em;
+     z-index: 3;
+ }
+.blue-container{
+    background: #00C2FF;
+    padding: 4em 0em 2em;
+    width:100%;
+    transform: skewY(-2deg);
+    border-top-left-radius: 30px;
+}
+
+.blue-container:before{
+    content: "";
+    background: #00c2ff;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    right: 0;
+    top: -39;
+    z-index: -2;
+    
+
+}
+.blue-container:after{
+    content: "";
+    background: white;
+    width: 70px;
+    height: 70px;
+    position: absolute;
+    right: 0;
+    top: -70;
+    border-radius: 50%;
+    z-index: -2;
+    
+}
+
+.blue-container ul{
+    transform: skewY(2deg);
+
+}
+.feedback{
+   background:#f6f6f6;
+   margin-top: -1em;;
+   padding-top: 3em;
+   
+}
+
+.users{
+    border-radius: 50%;
+}
